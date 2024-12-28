@@ -12,7 +12,7 @@
     "fix": "run-s -c *:fix",
     "format:check": "prettier --check .",
     "format:fix": "prettier --write .",
-    "type:check": "tsc --noEmit",
+    "type:check": "tsc --build",
     "lint:check": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepare": "node .husky/install.mjs",

@@ -17,7 +17,7 @@ export default tseslint.config(
       parserOptions: {
         sourceType: "module",
         ecmaVersion: "latest",
-        project: ["tsconfig.json", "tsconfig.*.json"],
+        projectService: true,
       },
       globals: {
         ...globals.node,
@@ -48,6 +48,6 @@ export default tseslint.config(
       ],
     },
   },
-  { ignores: ["dist/", ".husky/install.mjs"] },
+  { ignores: ["dist/", "out-tsc/", ".husky/install.mjs"] },
   eslintConfigPrettier,
 );

@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "module": "NodeNext",
+    "allowJs": true,
+    "checkJs": true
+  },
+  "include": ["scripts/**/*", "*.config.js", "*.config.ts"]
+}
