@@ -8,7 +8,8 @@ const parser = SimpleMarkdown.parserFor(
     ...rulesExtended,
     command: {
       order: rulesExtended.strong.order,
-      match: (source: string) => /^<\/([\w-]+):(\d{17,20})>/.exec(source),
+      match: (source: string) =>
+        /^<\/([\w-]+(?: [\w-]+)?(?: [\w-]+)?):(\d{17,20})>/.exec(source),
       parse: (capture: Capture) => ({
         name: capture[1],
         id: capture[2],
