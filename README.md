@@ -1,6 +1,6 @@
 # om
 
-Discord.js Japan User Group向けの読み上げボットです．
+Discord.js Japan User Groupのための読み上げボットです．
 
 ## 実行方法
 
