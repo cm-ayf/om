@@ -15,7 +15,7 @@ Discord.js Japan User Group向けの読み上げボットです．
 <!-- x-release-please-start-version -->
 
 ```bash
-docker run --rm -d --env-file .env ghcr.io/discordjs-japan/om:0.5.1
+docker run --rm -d --env-file .env ghcr.io/discordjs-japan/om:0.5.2
 ```
 
 <!-- x-release-please-end -->
