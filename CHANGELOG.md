@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.5.2](https://github.com/discordjs-japan/om/compare/v0.5.1...v0.5.2) (2025-01-25)
+
+
+### Bug Fixes
+
+* [#708](https://github.com/discordjs-japan/om/issues/708) ([f40ceb0](https://github.com/discordjs-japan/om/commit/f40ceb07dec359c71fb64a835c0e18b6fc26162f))
+* update discord url validation to include ptb.discord.com ([#709](https://github.com/discordjs-japan/om/issues/709)) ([f40ceb0](https://github.com/discordjs-japan/om/commit/f40ceb07dec359c71fb64a835c0e18b6fc26162f)), closes [#708](https://github.com/discordjs-japan/om/issues/708)
+
+
+### Dependencies
+
+* update dependency discord.js to v14.17.2 ([#720](https://github.com/discordjs-japan/om/issues/720)) ([024d392](https://github.com/discordjs-japan/om/commit/024d392d59e4bebc021c879dc1c613c1ca0684ec))
+* update dependency discord.js to v14.17.3 ([#726](https://github.com/discordjs-japan/om/issues/726)) ([9a8bd3a](https://github.com/discordjs-japan/om/commit/9a8bd3a9a8fe844f4f3fa74bb4fcaf6db3e2ff00))
+
 ## [0.5.1](https://github.com/discordjs-japan/om/compare/v0.5.0...v0.5.1) (2024-11-18)
 
 
